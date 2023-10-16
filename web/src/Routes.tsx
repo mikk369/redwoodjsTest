@@ -24,6 +24,7 @@ const Routes = () => {
       <Set wrap={ScaffoldLayout} title="Posts" titleTo="posts" buttonLabel="New Post" buttonTo="newPost"></Set>
       <Set wrap={GardenLayout}>
         <Route path="/article/{id:Int}" page={ArticlePage} name="article" />
+      <Route path="/contact" page={ContactPage} name="contact" />
         <Route path="/about" page={AboutPage} name="about" />
         <Route path="/" page={HomePage} name="home" />
       </Set>
